@@ -5,22 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-2</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <nav>
-            <div class="header-image">
-                <img id="logo" src="Images/Group 40071 (2).png" alt="">
-                <h3><span class="hero">Hero</span>Travel</h3>
-            </div>
+            <ul class="nav-bar">
+            <!-- <div class="header-image"> -->
+                <li> <a href="#"><img id="logo" src="Images/Group 40071 (2).png" alt=""></a> </li>
+
+                <li > <a href="#" id="text"><h3 id="travel"><span class="hero">Hero</span>Travel</h3></a> </li> 
+            <!-- </div> -->
+
+            <input type="checkbox" id="check">
+            <span class="menue">
+                
+                    <li><a href="#"><span class="home">Home</span></a></li>
+                    <li><a href="#"></a>Packages</li>
+                    <li><a href="#"></a>Testimonial</li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#"></a>Contact</li>
+                    <label for="check" class="close-menue"><i class="fa-solid fa-xmark"></i></label>
+                    
+                </ul>
+                <label for="check" class="open-menue"><i class="fa-solid fa-bars"></i></label>
+            </span>
             
-            <ul>
-                <li><a href=""><span class="home">Home</span></a></li>
-                <li><a href=""></a>Packages</li>
-                <li><a href=""></a>Testimonial</li>
-                <li><a href="">Blog</a></li>
-                <li><a href=""></a>Contact</li>
-            </ul>
         </nav>
     </header>
     <body>
