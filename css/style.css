@@ -389,7 +389,7 @@ nav li a {
 /* Banner-3 section style Start */
 .banner-3 {
     margin-top: 100px;
-    
+
 }
 
 .description {
@@ -469,6 +469,7 @@ nav li a {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+
 .icon-3 img {
     margin-top: 32px;
     margin-left: 32px;
@@ -477,6 +478,28 @@ nav li a {
 /* Icon part style End */
 
 /* Banner-3 section style End */
+/* Banner-4 section style Start */
+.banner-4-descriptinon{
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-4-heading {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.banner-4-paragraph {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Banner-4 section style End */
 
 /* Main section style End */
 
@@ -601,25 +624,28 @@ nav li a {
 
     /* Icon section responsive start */
     .icon-part {
-      flex-direction: column; 
+        flex-direction: column;
         margin: auto;
     }
+
     .icon-1,
     .icon-2,
     .icon-heading,
-    .icon-description 
-    ,.description
-    ,.image-paragraph{
+    .icon-description,
+    .description,
+    .image-paragraph {
         width: 100%;
         height: 100%;
         margin: auto;
     }
+
     .icon-3 {
-        margin:16px 0px ;
+        margin: 16px 0px;
         width: 100%;
         height: 100%;
-        
+
     }
+
     /* Icon section responsive End */
 
 }
