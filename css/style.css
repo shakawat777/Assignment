@@ -478,12 +478,15 @@ nav li a {
 /* Icon part style End */
 
 /* Banner-3 section style End */
+
+
 /* Banner-4 section style Start */
-.banner-4-descriptinon{
+.banner-4-descriptinon {
     width: 650px;
     text-align: center;
     margin: 0 auto;
 }
+
 .banner-4-heading {
     color: #131318;
     text-align: center;
@@ -500,6 +503,62 @@ nav li a {
 }
 
 /* Banner-4 section style End */
+
+
+/* Banner-5 section style Start */
+
+.banner-5-img-1 {
+    height: 500px;
+    border-radius: 16px;
+    position: relative;
+    margin-left: 85px;
+    margin-top: 50px;
+    border-radius: 16px;
+    background: url(../Images/Group\ 39.png) lightgray 50% / cover no-repeat;
+
+}
+
+.banner-5-img-1 img {
+    width: 100%;
+    display: block;
+    /* margin-top: 50px; */
+}
+
+.icon-1-part {
+    margin-bottom: 50px;
+
+}
+
+.img-1-icon {
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+    position: absolute;
+    border-radius: 16px;
+    border: 2px solid #c41b1b;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 56px 56px 55px 535px;
+
+    padding: 30px;
+}
+
+.box-heading {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.box-paragraph {
+    width: 452px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+/* Banner-5 section style End */
 
 /* Main section style End */
 
