@@ -602,6 +602,34 @@ nav li a {
 
     padding: 30px;
 }
+/* 2nd image style End */
+
+
+
+/* 3rd image style start */
+.banner-5-img-3 {
+    height: 500px;
+    border-radius: 16px;
+    position: relative;
+    margin-left: 85px;
+    margin-top: 50px;
+    border-radius: 16px;
+    background: url(../Images/Group\ 39.png) lightgray 50% / cover no-repeat;
+}
+
+.img-3-icon {
+    width: 500px;
+    height: 330px;
+    flex-shrink: 0;
+    position: absolute;
+    border-radius: 16px;
+    /* border: 2px solid #c41b1b; */
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 56px 56px 54px 530px;
+    padding: 30px;
+}
+/* 3rd image style End */
 
 
 /* Banner-5 section style End */
