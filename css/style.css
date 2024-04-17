@@ -781,4 +781,16 @@ nav li a {
 
     /* Icon section responsive End */
 
+    /* Banner-4 section responsive start */
+    .banner-4-descriptinon ,
+    .banner-4-paragraph {
+        width: 100%;
+    }
+    /* Banner-4 section responsive End */
+
+    /* Banner-5 section responsive start */
+
+    
+    /* Banner-5 section responsive End */
+
 }
