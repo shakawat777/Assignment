@@ -602,6 +602,7 @@ nav li a {
 
     padding: 30px;
 }
+
 /* 2nd image style End */
 
 
@@ -629,8 +630,21 @@ nav li a {
     margin: 56px 56px 54px 530px;
     padding: 30px;
 }
+
 /* 3rd image style End */
 
+.btn-1 {
+    width: 210px;
+    height: 52px;
+    margin: 48px 485px;
+    color: #FFF;
+    border: none;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+}
 
 /* Banner-5 section style End */
 
@@ -782,15 +796,63 @@ nav li a {
     /* Icon section responsive End */
 
     /* Banner-4 section responsive start */
-    .banner-4-descriptinon ,
+    .banner-4-descriptinon,
     .banner-4-paragraph {
         width: 100%;
     }
+
     /* Banner-4 section responsive End */
 
     /* Banner-5 section responsive start */
+    .banner-5-img-1 {
+        height: 100%;
+        margin: auto;
+    }
 
-    
+    .banner-5-img-1 img {
+        width: 100%;
+    }
+
+    /* .icon--part{
+        margin: auto;
+    } */
+    .img-1-icon {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        /* padding: auto; */
+    }
+
+    .box-paragraph {
+        width: 100%;
+    }
+
+     /* .banner-5-img-2 {
+        height: 100%;
+        margin: auto;
+    }
+    .img-2-icon {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding: auto;
+    } */
+
+    /* .banner-5-img-3 {
+        height: 100%;
+        margin: auto;
+    }
+    .img-3-icon {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding: auto;
+    } */
+    .btn-1{
+        width: 100%;
+        height: 100%;
+        margin: 15px;
+    }
     /* Banner-5 section responsive End */
 
 }
