@@ -647,6 +647,51 @@ nav li a {
 }
 
 /* Banner-5 section style End */
+/* Banner-6 section style Start */
+.banner-6-heading {
+    width: 448px;
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.banner-6-paragraph {
+    width: 532px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-6-point {
+    width: 518px;
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.banner-6-img {
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    background: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+}
+
+.image-content {
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 100px  67px;
+
+}
+
+/* Banner-6 section style End */
 
 /* Main section style End */
 
@@ -827,7 +872,7 @@ nav li a {
         width: 100%;
     }
 
-     /* .banner-5-img-2 {
+    /* .banner-5-img-2 {
         height: 100%;
         margin: auto;
     }
@@ -848,11 +893,12 @@ nav li a {
         margin: auto;
         padding: auto;
     } */
-    .btn-1{
+    .btn-1 {
         width: 100%;
         height: 100%;
         margin: 15px;
     }
+
     /* Banner-5 section responsive End */
 
 }
