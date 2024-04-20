@@ -726,6 +726,12 @@ nav li a {
     font-weight: 400;
 }
 
+.line {
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
 .input-field {
     width: 393px;
     height: 52px;
@@ -746,6 +752,10 @@ nav li a {
     font-weight: 600;
     border: none;
 }
+
+/* .space {
+   margin-bottom: 24px;
+} */
 
 .banner-7-image {
     border-radius: 16px;
@@ -1032,5 +1042,42 @@ nav li a {
     }
 
     /* Banner-6 section responsive End */
+    /* Banner-7 section responsive Start */
+    .banner-7-left-part,
+    .banner-7-description,
+    .btn-3,
+    .banner-7-image,
+    .line {
+        width: 100%;
+
+    }
+
+    .banner-7-image-text {
+        width: 100%;
+        position: relative;
+        top: 200px;
+        left: auto;
+    }
+
+    /* .space {
+        margin-top: auto;
+    } */
+
+    .input-field {
+        width: 100%;
+        margin: auto;
+    }
+
+    .image-title {
+        margin: auto;
+    }
+
+    .banner-7 {
+        flex-direction: column;
+        margin: auto;
+        bottom: 15px;
+    }
+
+    /* Banner-7 section responsive End */
 
 }
