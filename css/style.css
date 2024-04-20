@@ -695,7 +695,6 @@ nav li a {
 }
 
 .banner-6 {
-    border: 2px solid tomato;
     display: flex;
     gap: 40px;
     /* margin: 80px 100px; */
@@ -705,6 +704,86 @@ nav li a {
 
 
 /* Banner-6 section style End */
+/* Banner-7 section style Start */
+.banner-7-left-part {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.banner-7-heading {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.banner-7-description {
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.input-field {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin: 15px 0;
+}
+
+.btn-3 {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+}
+
+.banner-7-image {
+    border-radius: 16px;
+    /* background: url(../Images/Rectangle\ 8\ \(1\).png); */
+    /* background-repeat: no-repeat; */
+    width: 672px;
+    height: 422px;
+}
+.banner-7-image-text{
+    position: absolute;
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+ left: 50px; 
+
+
+}
+.image-heading{
+    /* transform: rotate(-19.628deg); */
+    position: relative;
+    color: #FFF;
+text-align: center;
+font-size: 1.5rem;
+font-weight: 400;
+/* margin: 20px 35px 20px 45px; */
+}
+.image-title{
+    /* transform: rotate(-19.628deg); */
+    position: relative;
+    text-align: center;
+    color: #FFF;
+font-size: 2rem;
+font-weight: 700;
+/* margin: 10px 35px 10px 45px; */
+bottom: 50px;
+}
+/* Banner-7 section style End */
 
 /* Main section style End */
 
@@ -918,25 +997,28 @@ nav li a {
         flex-direction: column;
         margin-left: auto;
     }
-    .banner-6-heading ,
+
+    .banner-6-heading,
     .banner-6-paragraph,
-    .banner-6-point 
-    {
-        width: 100%; 
+    .banner-6-point {
+        width: 100%;
     }
+
     .banner-6-img {
         width: 100%;
         margin: auto;
     }
-    
+
     .image-content {
         width: 100%;
-        margin: auto; 
-    
+        margin: auto;
+
     }
+
     .btn {
         width: 100%;
     }
+
     /* Banner-6 section responsive End */
 
 }
