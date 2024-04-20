@@ -705,6 +705,7 @@ nav li a {
 
 /* Banner-6 section style End */
 /* Banner-7 section style Start */
+
 .banner-7-left-part {
     width: 474px;
     height: 422px;
@@ -748,26 +749,26 @@ nav li a {
 
 .banner-7-image {
     border-radius: 16px;
-     background: url(../Images/Rectangle\ 81.png);
-     background-repeat: no-repeat; 
-    width: 672px;
+    background: url(../Images/Rectangle\ 81.png);
+    background-repeat: no-repeat;
+    width: 670px;
     height: 422px;
-    position: absolute;
+    position: relative;
 }
 
 .banner-7-image-text {
-    position: relative;
+    position: absolute;
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
     border-radius: 16px;
     background: #FF5400;
-    top: 225px;
-    left: 340px;
+    top: 250px;
+    left: 310px;
 }
 
 .image-heading {
-    position: relative;
+    /* position: absolute; */
     color: #FFF;
     text-align: center;
     font-size: 1.5rem;
@@ -777,13 +778,21 @@ nav li a {
 }
 
 .image-title {
-    position: relative;
+    /* position: absolute; */
     text-align: center;
     color: #FFF;
     font-size: 2rem;
     font-weight: 700;
     /* margin: 10px 35px 10px 45px; */
-    bottom: 30px;
+    margin-top: 25px;
+}
+
+.banner-7 {
+    display: flex;
+    gap: 40px;
+    margin-left: 85px;
+    margin-top: 100px;
+
 }
 
 /* Banner-7 section style End */
