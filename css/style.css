@@ -1139,5 +1139,24 @@ nav li a {
     }
 
     /* Banner-7 section responsive End */
+    /*Footer section responsive Start */
+    .foot
+     {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .footer-description{
+        width: 100%;
+        margin: auto;
+    }
+    .footer-section,
+    .footer-icon,
+    .copy-right{
+        margin: auto; 
+    }
+    .footer-line{
+        width: 100%;
+    }
+    /* Footer section responsive End */
 
 }
