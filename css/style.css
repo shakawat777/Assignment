@@ -728,7 +728,7 @@ nav li a {
 
 .line {
     width: 393px;
-    height: 1px;
+    height: 0px;
     background: rgba(19, 19, 24, 0.10);
 }
 
@@ -813,7 +813,7 @@ nav li a {
 .foot {
     background: rgba(19, 19, 24, 0.05);
     width: 1440px;
-    height: 450px;
+    height: 430px;
     margin-top: 100px;
 }
 
@@ -821,6 +821,7 @@ nav li a {
     display: flex;
     align-items: center;
     gap: 15px;
+    margin: 110px 600px 15px 580px;
 }
 
 .foot-title {
@@ -834,9 +835,39 @@ nav li a {
     font-size: 2rem;
     font-weight: 800;
 }
-.footer-description{
+
+.footer-description {
     width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 335px;
 }
+
+.footer-icon {
+    margin: 32px 633px;
+}
+
+.fa-brands {
+    padding: 10px;
+}
+
+.footer-line {
+    width: 872px;
+    height: 0px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.copy-right {
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 50px 624px;
+}
+
 /* Footer section style End */
 
 @media screen and (max-width:600px) {
